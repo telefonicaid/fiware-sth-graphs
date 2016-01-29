@@ -28,7 +28,7 @@ git clone https://github.com/telefonicaid/fiware-sth-graphs.git
 ```
 Go to the downloaded folder
 ```
-cd sth-graps
+cd fiware-sth-graps
 ```
 Install the dependencies:
 ```
