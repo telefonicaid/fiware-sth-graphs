@@ -1,0 +1,7 @@
+#chart svg {
+    height: 500px;
+}
+
+.nv-y.nv-axis .tick:first-child line {
+    stroke: black;
+}
