@@ -20,16 +20,17 @@ reusable and customizable components. To see all the components available visit 
 ### Dependencies
 * npm
 * bower
+
 ## Install
-1. Clone this repository:
+Clone this repository:
 ```
-git clone
+git clone https://github.com/telefonicaid/fiware-sth-graphs.git
 ```
-1. go to the downloaded folder
+Go to the downloaded folder
 ```
 cd sth-graps
 ```
-1. install the dependencies:
+Install the dependencies:
 ```
 bower install
 ```
