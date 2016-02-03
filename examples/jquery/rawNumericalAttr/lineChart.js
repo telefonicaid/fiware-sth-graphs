@@ -3,6 +3,7 @@
  */
 function loadData(callback) {
     var loadLocalData = true,     //change this if you want to perform a request to a real instance of sth-comet
+    //change the urlParams and headers if you want to query your own entity data.
         urlParams = {
             dateFrom: '2015-11-26T00:00:00.000Z',
             dateTo: '2015-11-26T23:00:00.000Z',
@@ -20,6 +21,7 @@ function loadData(callback) {
 
         return $.ajax({
             method: 'GET',
+            //Change this URL if you want to use your own sth-comet
             url: 'http://localhost:8666/STH/v1/contextEntities/type/sensor/id/sensor1/attributes/temperature',
             data: urlParams,
             headers: headers,
