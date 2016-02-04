@@ -35,9 +35,9 @@ bower install
 ```
 ## The examples
 * Simple example using JQuery that draws [numerical raw data](examples/jquery/rawNumericalAttr)
-* Extended example using AngularJS that draws qualitative aggregated data. It shows some examples of how to customize NVD3 components
+* Extended example using AngularJS that draws [qualitative aggregated data](examples/angularjs/aggrStringAttr). It shows some examples of how to customize NVD3 components
 to adapt them to concrete needs. It uses [angular-nvd3](http://krispo.github.io/angular-nvd3/), an AngularJS directive for NVD3 that allows
- customizing charts via JSON API. (coming soon).
+ customizing charts via JSON API.
 
 ## Run examples
 * Open the desired HTML file in your browser to see a representation of the local data available in the corresponding samples.js file.

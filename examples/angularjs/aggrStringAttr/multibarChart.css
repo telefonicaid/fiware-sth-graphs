@@ -1,0 +1,8 @@
+.chart-container {
+    height: 500px;
+    width: 100%;
+}
+
+.nv-y.nv-axis .tick.zero line {
+    stroke: black;
+}

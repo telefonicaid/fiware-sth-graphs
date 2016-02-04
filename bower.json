@@ -13,6 +13,9 @@
   ],
   "dependencies": {
     "nvd3": "~1.8.2",
-    "jquery": "~2.2.0"
+    "jquery": "~2.2.0",
+    "angularjs": "~1.4.9",
+    "angular-nvd3": "~1.0.5",
+    "angular-i18n": "~1.4.9"
   }
 }
