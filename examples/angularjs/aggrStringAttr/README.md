@@ -5,6 +5,7 @@
 This example shows how to use NVD3 in conjunction with AngularJS. To make it easier, this example use Angular-nvd3 directive to customize the component via JSON API.
 
 It shows the different statuses a button has had in 6 days. Button status is a qualitative value whose values can be: C.S, X, C.F and P.
+
 The xAxis acts as Timeline and has a mark every day at 00:00 (local time). This way, each day of the period is represented although there are
  no samples for it. The yAxis represents the number of times the button has been in that status within an hour. this is, the
  graph represent the aggregation of status values per hour: Ex. "on 13/11/2015, 08:00-09:00 the button has been 1 time in P and 1 time in C.S. Total: 2 statuses in one hour.
