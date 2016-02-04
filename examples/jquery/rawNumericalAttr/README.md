@@ -2,14 +2,14 @@
 ## Raw numerical attribute
 ![lineChart](img/lineChart.png)
 
-This simple example shows how to visualize raw data provided by STH with a simple chart: LineChart.
+This simple example shows how to visualize numerical raw data provided by STH with a simple chart: LineChart.
 It is built on top of NVD3 [LineChart](http://nvd3.org/examples/line.html), using D3.js as a basis.
 
 It shows the evolution in two days of data received from a temperature sensor. The xAxis acts as Timeline whereas yAxis represents the Temperature in ºC
 
 By default, the code of lineChart.js loads the samples data from a local source file [samples.js](samples.js). This file
 has been generated from a real raw data response of sth-comet. If you have a real instance of sth-comet you can use this
-example to make an AJAX request to your instance just by changing the URL endpoint and the `loadLocalData` variable in `loadData()` method of [lineChart.js](lineChart.js)
+example to make an AJAX request to your instance just by changing the URL endpoint and params and the `loadLocalData` variable in `loadData()` method of [lineChart.js](lineChart.js)
 
 **NOTICE**:
 * If you are using the AJAX request, the HTML file cannot be opened directly on your browser (protocol: file://).
